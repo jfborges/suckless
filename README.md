@@ -1,11 +1,11 @@
-# Custom build of suckless tools such as DWM and ST ( nord colors )
+## Custom build of suckless tools (DWM and ST with nord colors )
 
 - DWM: dynamic window manager
 - ST: simple terminal
 
-## dwm Window Manager - ( restart dwm without closing X )
+### tip! dwm Window Manager - ( restart dwm without closing X )
 
-• add the following to your.xinitrc ( bottom )
+• add the following to your .xinitrc ( bottom )
 ```
 while true; do
 		# Log stderror to a file
