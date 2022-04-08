@@ -3,7 +3,7 @@
 - DWM: dynamic window manager
 - ST: simple terminal
 
-### tip! dwm Window Manager - ( restart dwm without closing X )
+### tip! restart dwm without closing X 
 
 • add the following to your .xinitrc ( bottom )
 ```
