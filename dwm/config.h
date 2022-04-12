@@ -31,7 +31,7 @@ static const char col_frost[]       = "#88C0D0";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_white, col_black, col_black  },
-	[SchemeSel]  = { col_black, col_blue,  col_blue },
+	[SchemeSel]  = { col_white, col_blue,  col_blue },
 	[SchemeTitle]= { col_white, col_black, col_black  },
 };
 
@@ -74,7 +74,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_white, "-sb", col_blue, "-sf", col_black, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_white, "-sb", col_blue, "-sf", col_white, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
