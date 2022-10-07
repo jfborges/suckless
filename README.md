@@ -1,6 +1,8 @@
 ## Custom build of suckless tools (DWM, DMENU, SLOCK and ST with nord colors )
 
 - DWM: dynamic window manager
+- DMENU: dynamic menu for X
+- SLOCK: Simple X display locker.
 - ST: simple terminal
 
 ### tip! restart dwm without closing X 
