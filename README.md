@@ -1,4 +1,4 @@
-## Custom build of suckless tools (DWM and ST with nord colors )
+## Custom build of suckless tools (DWM, DMENU, SLOCK and ST with nord colors )
 
 - DWM: dynamic window manager
 - ST: simple terminal
@@ -17,3 +17,5 @@ done
 
 ---
 20221007144457
+
+! vanity gaps no applied this time.
