@@ -20,4 +20,4 @@ done
 ---
 20221007144457
 
-! vanity gaps no applied this time.
+! vanity gaps not applied this time.
